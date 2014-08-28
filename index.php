@@ -1,7 +1,7 @@
 <?php
 	header("Content-Type:text/html; charset=utf-8");
 @	$stringQRCODE = $_POST['qrcode'];
-	$ethIP = "10.120.0.69";
+	$ethIP = "192.168.111.1";
 ?>
 
 <form name="form1" method="post" action="getQR.php">
